@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+/* * - all elements*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+body {
+    background-color: rgb(29, 194, 51);
+}
+
+.container {
+    border: 2px solid black;
+    height: 145vh;
+    margin: 0 auto;
+    width: 75%;
+}
+
+.title-container {
+    padding: 1rem 0;
+}
+
+.title-container h1 {
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.description-container {
+    padding: 0 1rem;
+
+}
+
+.description-container p {
+    color: yellow;
+    font-size: 1.5rem;
+    letter-spacing: 0.009rem;
+    line-height: 3rem;
+    text-align: center;
+    font-weight: 200;
+}
+
+img {
+    width: 175px;
+}
+
+.table-container {
+    width: 75%;
+    margin: 3rem auto;
+}
+
+ul {
+    list-style: none;
+}
+
+#td-method {
+    padding-left: 1rem;
+}
+
+#td-method ul li:first-child {
+    margin-top: 1rem;
+}
+
+#td-method ul li span {
+    font-weight: bold;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+#td-method ul li {
+    margin-bottom: 1rem;
+}
+
+#td-ingredients ul li:first-child {
+    margin-top: 10px;
+}
+
+#td-ingredients ul li {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.footer {
+    padding-bottom: 3rem;
+}
+
+.footer ul {
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+}
+
+.footer ul li {
+    display: inline-block;
+}
+
+.footer ul li:first-child {
+    margin-right: 3rem;
+}
+
+.footer ul li:last-child {
+    margin-left: 2.5rem;
+}
+
+.footer ul li a {
+    color: blue;
+    font-size: 3rem;
+}
